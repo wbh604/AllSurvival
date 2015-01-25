@@ -1,0 +1,2 @@
+# AllSurvival
+Prevent unallowed creative
