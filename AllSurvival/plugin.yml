@@ -1,0 +1,35 @@
+name: ALLSurvival
+main: ALLSurvival\ALLSurvival
+version: 1.2.1
+author: Zzm
+api: [1.0.0]
+load: STARTUP
+description: LockCreative....
+commands:
+ ac:
+  permission: ALLSurvival.ac
+  description: Allow sb to use creative
+  usage: /ac <player>
+ dc:
+  permission: ALLSurvival.dc
+  description: Disllow sb to use creative
+  usage: /dc <player>
+ clist:
+  permission: ALLSurvival.clist
+  description: see the clist
+  usage: /clist
+
+permissions:
+ ALLSurvival:
+  default: op
+  description: allow all ALLSurvival
+  children:
+     ALLSurvival.ac:
+      default: op
+      description: Allow sb to use creative
+     ALLSurvival.dc:
+      default: op 
+      description: Disllow sb to use creative
+     ALLSurvival.clist:
+      default: op 
+      description: see the clist
